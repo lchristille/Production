@@ -4,6 +4,7 @@ import android.text.format.DateFormat;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.Locale;
 
@@ -116,9 +117,9 @@ public class Lavorazione {
 
     public String getTempo() throws ArithmeticException, IllegalArgumentException, ParseException {
         String result = new String();
-        Date _dataCarico;
-        Date _dataScarico;
-        if (dataCarico.isEmpty() || dataScarico.isEmpty() || oraCarico.isEmpty() || oraScarico.isEmpty()) {
+        Date _dataCarico = new Date();
+        Date _dataScarico = new Date();
+        if (dataCarico.isEmpty() || dataScarico.isEmpty()) {
             throw new IllegalArgumentException();
         }
         SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy");
@@ -128,12 +129,12 @@ public class Lavorazione {
             throw parseExcept;
         }
         try {
-            _dataScarico = format.parse(dataCarico);
+            _dataScarico = format.parse(dataScarico);
         } catch (ParseException parseExcept) {
             throw parseExcept;
         }
-        long millisDiff = _dataScarico.getTime() - _dataCarico.getTime();
-        result = String.valueOf(millisDiff) + "millesimi";
+        long lavorativi = Helper.dayDifferenceWithLavorativi(_dataCarico, _dataScarico);
+        result = "Giorni totali " + lavorativi;
         return result;
     }
 }
