@@ -13,202 +13,204 @@
         android:id="@+id/scrollView"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true" >
 
-    <GridLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Data Carico"
-            android:id="@+id/textView"
-            android:layout_row="0"
-            android:layout_column="0" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Data Carico"
+                android:id="@+id/textView"
+                android:layout_row="0"
+                android:layout_column="0" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Ora Carico"
-            android:id="@+id/textView2"
-            android:layout_row="1"
-            android:layout_column="0" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Ora Carico"
+                android:id="@+id/textView2"
+                android:layout_row="1"
+                android:layout_column="0" />
 
-        <EditText
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/txtOraCarico"
-            android:layout_row="1"
-            android:layout_column="1" />
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtOraCarico"
+                android:layout_row="1"
+                android:layout_column="1" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Gr. Carico"
-            android:id="@+id/textView3"
-            android:layout_row="2"
-            android:layout_column="0" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Gr. Carico"
+                android:id="@+id/textView3"
+                android:layout_row="2"
+                android:layout_column="0" />
 
-        <EditText
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/txtGrCarico"
-            android:layout_row="2"
-            android:layout_column="1"
-            android:text="12,5" />
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtGrCarico"
+                android:layout_row="2"
+                android:layout_column="1"
+                android:text="12,5" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Data Scarico"
-            android:id="@+id/textView4"
-            android:layout_row="3"
-            android:layout_column="0" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Data Scarico"
+                android:id="@+id/textView4"
+                android:layout_row="3"
+                android:layout_column="0" />
 
-        <EditText
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/txtDataScarico"
-            android:layout_row="3"
-            android:layout_column="1"
-            android:text="24/11/2015" />
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtDataScarico"
+                android:layout_row="3"
+                android:layout_column="1"
+                android:text="24/11/2015" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Ora Scarico"
-            android:id="@+id/textView5"
-            android:layout_row="4"
-            android:layout_column="0" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Ora Scarico"
+                android:id="@+id/textView5"
+                android:layout_row="4"
+                android:layout_column="0" />
 
-        <EditText
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/txtOraScarico"
-            android:layout_row="4"
-            android:layout_column="1" />
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtOraScarico"
+                android:layout_row="4"
+                android:layout_column="1" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Gr. Scarico"
-            android:id="@+id/textView6"
-            android:layout_row="5"
-            android:layout_column="0" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Gr. Scarico"
+                android:id="@+id/textView6"
+                android:layout_row="5"
+                android:layout_column="0" />
 
-        <EditText
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/txtGrScarico"
-            android:layout_row="5"
-            android:layout_column="1"
-            android:text="10,5" />
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtGrScarico"
+                android:layout_row="5"
+                android:layout_column="1"
+                android:text="10,5" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Nominativo"
-            android:id="@+id/textView7"
-            android:layout_row="6"
-            android:layout_column="0" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Nominativo"
+                android:id="@+id/textView7"
+                android:layout_row="6"
+                android:layout_column="0" />
 
-        <EditText
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/txtNominativo"
-            android:layout_row="6"
-            android:layout_column="1" />
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtNominativo"
+                android:layout_row="6"
+                android:layout_column="1" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Descrizione"
-            android:id="@+id/textView8"
-            android:layout_row="7"
-            android:layout_column="0" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Descrizione"
+                android:id="@+id/textView8"
+                android:layout_row="7"
+                android:layout_column="0" />
 
-        <EditText
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/txtDesc"
-            android:layout_row="7"
-            android:layout_column="1" />
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtDesc"
+                android:layout_row="7"
+                android:layout_column="1" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Matricola"
-            android:id="@+id/textView9"
-            android:layout_row="8"
-            android:layout_column="0" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Matricola"
+                android:id="@+id/textView9"
+                android:layout_row="8"
+                android:layout_column="0" />
 
-        <EditText
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/txtMatricola"
-            android:layout_row="8"
-            android:layout_column="1" />
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtMatricola"
+                android:layout_row="8"
+                android:layout_column="1" />
 
-        <EditText
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/txtDataCarico"
-            android:layout_row="0"
-            android:layout_column="1"
-            android:text="09/11/2015" />
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtDataCarico"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:text="09/11/2015" />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Calcola"
-            android:id="@+id/btnCalcola"
-            android:layout_row="9"
-            android:layout_column="0"
-            android:onClick="calcola" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Calcola"
+                android:id="@+id/btnCalcola"
+                android:layout_row="9"
+                android:layout_column="0"
+                android:onClick="calcola" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Gr. Diff"
-            android:id="@+id/textView10"
-            android:layout_row="10"
-            android:layout_column="0" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Gr. Diff"
+                android:id="@+id/textView10"
+                android:layout_row="10"
+                android:layout_column="0" />
 
-        <EditText
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/txtGrDiff"
-            android:layout_row="10"
-            android:layout_column="1" />
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtGrDiff"
+                android:layout_row="10"
+                android:layout_column="1" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Tempo impiegato"
-            android:id="@+id/textView11"
-            android:layout_row="11"
-            android:layout_column="0" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Tempo impiegato"
+                android:id="@+id/textView11"
+                android:layout_row="11"
+                android:layout_column="0" />
 
-        <EditText
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/txtTempo"
-            android:layout_row="11"
-            android:layout_column="1" />
-    </GridLayout>
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtTempo"
+                android:layout_row="11"
+                android:layout_column="1" />
+        </GridLayout>
+    </ScrollView>
+
 </RelativeLayout>
